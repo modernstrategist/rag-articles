@@ -1,0 +1,22 @@
+{
+  "kind": "apm_metrics",
+  "generated_at_ms": 1716403200000,
+  "resolution_seconds": 60,
+  "metrics": [
+    {
+      "application_id": "shopping-service",
+      "instance_id": "node-01",
+      "endpoint": "/checkout",
+      "method": "POST",
+      "window_start_ms": 1716403140000,
+      "window_end_ms": 1716403200000,
+      "throughput": 128,
+      "error_rate": 0.0078,
+      "latency": {
+        "p50_ms": 32.1,
+        "p90_ms": 75.4,
+        "p99_ms": 110.2
+      }
+    }
+  ]
+}
